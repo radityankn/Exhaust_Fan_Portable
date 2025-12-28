@@ -1,0 +1,207 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "055e7171-e611-4dda-a539-d65a04d953db")
+	(paper "A4")
+	(title_block
+		(date "2025-12-28")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.13 25.4)
+		(size 60.96 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d981be7-bcb1-403e-8522-ee83c4652267")
+		(property "Sheetname" "Sensors"
+			(at 24.13 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 24.13 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 128.27)
+		(size 60.96 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a42efd4a-2c47-4fb0-a7f5-fa4a124152b0")
+		(property "Sheetname" "Controller"
+			(at 26.67 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller.kicad_sch"
+			(at 26.67 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 27.94)
+		(size 69.85 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa570b2b-74e0-4447-a4ff-c44edd62211b")
+		(property "Sheetname" "Actuators"
+			(at 207.01 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Actuators.kicad_sch"
+			(at 207.01 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 77.47)
+		(size 62.23 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6f54a4e-e20c-4741-b880-e5ee206a27c1")
+		(property "Sheetname" "Power"
+			(at 24.13 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 24.13 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 81.28)
+		(size 68.58 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efa8f2f6-b6f3-4c95-9715-01f4d6b73448")
+		(property "Sheetname" "Connectors"
+			(at 207.01 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 207.01 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

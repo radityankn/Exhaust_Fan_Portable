@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "46d3e384-8627-459d-bd0c-d63e4adee5d3")
+	(paper "A4")
+	(title_block
+		(title "Sensors - Exhaust Fan Portable")
+		(date "2025-12-28")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+)
