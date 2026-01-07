@@ -304,6 +304,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -594,168 +739,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4001"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4001_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1016,6 +999,319 @@
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1358,6 +1654,12 @@
 		)
 	)
 	(junction
+		(at 172.72 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06507e63-5116-4446-bf31-484aa6336cd6")
+	)
+	(junction
 		(at 135.89 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1382,16 +1684,28 @@
 		(uuid "67f9bf16-0cfc-455f-bef6-8c6de321de62")
 	)
 	(junction
-		(at 195.58 50.8)
+		(at 209.55 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d70a6aee-ebcf-4976-8798-fd5e527765da")
+		(uuid "b5b635ec-9a72-436c-8667-e7e12473d0f9")
 	)
 	(junction
 		(at 180.34 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f77145ba-a86a-430e-9cce-2bd0ff7eca84")
+		(uuid "d0aea602-591f-4241-bd0b-b5ccef953efc")
+	)
+	(junction
+		(at 195.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5584258-a158-40cb-abdb-f02cc2212cef")
+	)
+	(junction
+		(at 195.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d70a6aee-ebcf-4976-8798-fd5e527765da")
 	)
 	(wire
 		(pts
@@ -1402,6 +1716,16 @@
 			(type default)
 		)
 		(uuid "00deb933-ffaa-4d3e-b1bd-aa32b99ebee7")
+	)
+	(wire
+		(pts
+			(xy 172.72 54.61) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276aa3e8-09c5-4f7a-89d9-18047c3e0d1f")
 	)
 	(wire
 		(pts
@@ -1455,6 +1779,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 40.64) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5350ca50-b2ef-4f59-958e-bc209a7d4e83")
+	)
+	(wire
+		(pts
+			(xy 172.72 64.77) (xy 195.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59033384-3daa-458b-a00e-a2b5ae051173")
+	)
+	(wire
+		(pts
 			(xy 265.43 41.91) (xy 265.43 45.72)
 		)
 		(stroke
@@ -1472,6 +1816,16 @@
 			(type default)
 		)
 		(uuid "5feeadf4-6044-4bce-932d-d6cb37b73ce5")
+	)
+	(wire
+		(pts
+			(xy 195.58 66.04) (xy 195.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63837b0b-4cce-4e1f-b314-7a3399d0f777")
 	)
 	(wire
 		(pts
@@ -1525,23 +1879,33 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 50.8) (xy 195.58 53.34)
+			(xy 172.72 57.15) (xy 187.96 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "901299c2-e6ab-48d4-a6c8-e62a441f1c8c")
+		(uuid "890340ce-c1d5-44db-8dfa-69c260400d22")
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 180.34 35.56)
+			(xy 195.58 64.77) (xy 195.58 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9264855a-4cdc-4e95-88be-0a61e49a5fa6")
+		(uuid "951b8533-fdc1-4bee-8549-8a9133da911a")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e44d4b1-5602-4de2-a5d4-70809a5d44ce")
 	)
 	(wire
 		(pts
@@ -1605,6 +1969,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 50.8) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1a09e4-7c51-4b7c-bd1a-595116531a1d")
+	)
+	(wire
+		(pts
 			(xy 123.19 49.53) (xy 135.89 49.53)
 		)
 		(stroke
@@ -1622,6 +1996,16 @@
 			(type default)
 		)
 		(uuid "d1ab593a-e923-4d06-9562-81b42fa3f678")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d612dc5b-2c33-4ba3-bd32-90d5087dd1a0")
 	)
 	(wire
 		(pts
@@ -1652,6 +2036,16 @@
 			(type default)
 		)
 		(uuid "f875a071-2fe7-44e2-b3b9-6373b2806875")
+	)
+	(wire
+		(pts
+			(xy 172.72 46.99) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf59306-c953-4a5a-ac7f-a837812f9167")
 	)
 	(wire
 		(pts
@@ -1689,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 260.35 57.15 0)
 			(effects
 				(font
@@ -1960,7 +2354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 260.35 34.29 0)
 			(effects
 				(font
@@ -2093,7 +2487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 122.2248 41.91 0)
 			(effects
 				(font
@@ -2268,6 +2662,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 172.72 60.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a284eaf-a295-4e4a-9457-56099250e71a")
+		(property "Reference" "D5"
+			(at 170.18 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 170.18 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3636b81-5d9a-4641-8d45-5f0ebf18732b")
+		)
+		(pin "1"
+			(uuid "83ab5a36-ea28-44da-9561-4ce726f27c44")
+		)
+		(instances
+			(project ""
+				(path "/055e7171-e611-4dda-a539-d65a04d953db/e6f54a4e-e20c-4741-b880-e5ee206a27c1"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 265.43 41.91 0)
 		(unit 1)
@@ -2334,6 +2798,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 209.55 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69596977-4670-474c-a399-67f0042008e9")
+		(property "Reference" "C12"
+			(at 213.36 44.8309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 213.36 47.3709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 210.5152 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "237efad7-c4be-43ba-bef4-24d69fd28cba")
+		)
+		(pin "1"
+			(uuid "21ef64ca-e046-4234-8bdf-0266dc0b245e")
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db/e6f54a4e-e20c-4741-b880-e5ee206a27c1"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd89403-6e5e-40e9-a907-cc8e09f06a96")
+		(property "Reference" "R26"
+			(at 170.18 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5K"
+			(at 170.18 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 170.942 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12338d93-2d21-4ce4-a493-cb5d45ac83e0")
+		)
+		(pin "1"
+			(uuid "42270c3a-d811-4e83-b149-8c43b25053eb")
+		)
+		(instances
+			(project "exhaust-fan-portable"
+				(path "/055e7171-e611-4dda-a539-d65a04d953db/e6f54a4e-e20c-4741-b880-e5ee206a27c1"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 251.46 45.72 90)
 		(unit 1)
@@ -2359,7 +2963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 251.46 47.498 90)
 			(effects
 				(font
@@ -2540,43 +3144,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 180.34 39.37 90)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 193.04 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a90b9fd9-66f7-4ce0-9788-8efaa4f55c27")
-		(property "Reference" "D5"
-			(at 175.514 38.862 90)
+		(uuid "a48c3e67-9251-4ab2-9a82-542c4cc2d61f")
+		(property "Reference" "Q4"
+			(at 199.39 58.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4001"
-			(at 171.196 40.894 90)
+		(property "Value" "NMOS"
+			(at 199.39 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 180.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 180.34 39.37 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,8 +3180,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 180.34 39.37 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 193.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,8 +3189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 180.34 39.37 0)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 193.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,8 +3198,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 39.37 0)
+		(property "Sim.Device" "NMOS"
+			(at 193.04 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 193.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,15 +3226,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "e04ba6be-58b0-4284-8396-0db092693c9f")
+			(uuid "5a431f2b-b363-4c22-b28e-cfe46f8e5a5e")
+		)
+		(pin "3"
+			(uuid "56efe7bf-47c9-4bf5-9b39-0db30216f197")
 		)
 		(pin "1"
-			(uuid "ba5f87a2-f36f-4e70-9379-bbb3bddbced9")
+			(uuid "67e5a748-6e7c-4960-86f5-7c9ad24b5b32")
 		)
 		(instances
-			(project ""
+			(project "exhaust-fan-portable"
 				(path "/055e7171-e611-4dda-a539-d65a04d953db/e6f54a4e-e20c-4741-b880-e5ee206a27c1"
-					(reference "D5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2628,7 +3245,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 180.34 34.29 0)
+		(at 180.34 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2637,7 +3254,7 @@
 		(fields_autoplaced yes)
 		(uuid "c22fe34e-3be2-4909-9498-e6e4ad678537")
 		(property "Reference" "#PWR5"
-			(at 180.34 38.1 0)
+			(at 180.34 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3263,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 180.34 29.21 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 34.29 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +3280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 34.29 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 180.34 34.29 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +3337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.3052 50.8 0)
 			(effects
 				(font
@@ -2788,7 +3405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 251.46 58.928 90)
 			(effects
 				(font
@@ -2856,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 260.35 45.72 0)
 			(effects
 				(font
@@ -2900,7 +3517,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 53.34 0)
+		(at 195.58 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2909,7 +3526,7 @@
 		(fields_autoplaced yes)
 		(uuid "e29ef4b7-23a0-46e4-9afa-83edcef3fe41")
 		(property "Reference" "#PWR15"
-			(at 195.58 59.69 0)
+			(at 195.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +3535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 58.42 0)
+			(at 195.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 53.34 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 53.34 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 53.34 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 251.46 36.068 90)
 			(effects
 				(font

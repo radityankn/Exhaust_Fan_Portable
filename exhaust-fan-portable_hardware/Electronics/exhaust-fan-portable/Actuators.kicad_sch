@@ -1165,6 +1165,10 @@
 		(color 0 0 0 0)
 		(uuid "ebcc1c22-ff5e-4dba-b84b-676726e5c5bb")
 	)
+	(no_connect
+		(at 171.45 134.62)
+		(uuid "8661bc3b-c4ab-4ded-aa7f-5d1388f32c6f")
+	)
 	(wire
 		(pts
 			(xy 66.04 46.99) (xy 81.28 46.99)
@@ -1207,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 151.13) (xy 63.5 151.13)
+			(xy 43.18 151.13) (xy 63.5 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1231,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 53.34) (xy 63.5 53.34)
+			(xy 43.18 53.34) (xy 63.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 102.87) (xy 63.5 102.87)
+			(xy 43.18 102.87) (xy 63.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1811,7 @@
 	)
 	(global_label "FAN1_CTRL_PWR"
 		(shape output)
-		(at 53.34 53.34 180)
+		(at 43.18 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1817,7 +1821,7 @@
 		)
 		(uuid "0e93e174-2b89-425c-b357-ee7b6dcbd2fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1753 53.34 0)
+			(at 25.0153 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1899,7 @@
 	)
 	(global_label "FAN2_CTRL_PWR"
 		(shape output)
-		(at 53.34 102.87 180)
+		(at 43.18 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1905,7 +1909,7 @@
 		)
 		(uuid "8948d15b-6d4a-460e-9796-27197d415168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1753 102.87 0)
+			(at 25.0153 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1921,7 @@
 	)
 	(global_label "FAN3_CTRL_PWR"
 		(shape output)
-		(at 53.34 151.13 180)
+		(at 43.18 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1927,7 +1931,7 @@
 		)
 		(uuid "9a073a80-0bae-4d08-a0c1-16b8ebfc1c37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1753 151.13 0)
+			(at 25.0153 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-6_4.4x3.6mm_P1.27mm"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -2196,7 +2200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -2287,7 +2291,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "5K"
 			(at 60.96 114.2999 0)
 			(effects
 				(font
@@ -2296,7 +2300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.198 113.03 90)
 			(effects
 				(font
@@ -2496,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 149.86 136.398 90)
 			(effects
 				(font
@@ -2557,7 +2561,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "10K"
 			(at 95.25 161.2899 0)
 			(effects
 				(font
@@ -2566,7 +2570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.488 160.02 90)
 			(effects
 				(font
@@ -2626,7 +2630,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "50K"
 			(at 62.23 92.71 90)
 			(effects
 				(font
@@ -2634,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 98.298 90)
 			(effects
 				(font
@@ -2694,7 +2698,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "50K"
 			(at 62.23 43.18 90)
 			(effects
 				(font
@@ -2702,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 48.768 90)
 			(effects
 				(font
@@ -2763,7 +2767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "10K"
 			(at 95.25 113.0299 0)
 			(effects
 				(font
@@ -2772,7 +2776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.488 111.76 90)
 			(effects
 				(font
@@ -2842,7 +2846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -3005,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-6_4.4x3.6mm_P1.27mm"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -3075,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "470"
 			(at 87.63 149.86 90)
 			(effects
 				(font
@@ -3083,7 +3087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 155.448 90)
 			(effects
 				(font
@@ -3219,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 104.14 53.34 0)
 			(effects
 				(font
@@ -3441,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "50K"
 			(at 62.23 140.97 90)
 			(effects
 				(font
@@ -3449,7 +3453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 146.558 90)
 			(effects
 				(font
@@ -3509,7 +3513,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "470"
 			(at 87.63 101.6 90)
 			(effects
 				(font
@@ -3517,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 107.188 90)
 			(effects
 				(font
@@ -3644,7 +3648,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "5K"
 			(at 60.96 162.5599 0)
 			(effects
 				(font
@@ -3653,7 +3657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.198 161.29 90)
 			(effects
 				(font
@@ -3713,7 +3717,7 @@
 				)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "470"
 			(at 87.63 52.07 90)
 			(effects
 				(font
@@ -3721,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 57.658 90)
 			(effects
 				(font
@@ -3858,7 +3862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "5K"
 			(at 60.96 64.7699 0)
 			(effects
 				(font
@@ -3867,7 +3871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.198 63.5 90)
 			(effects
 				(font
@@ -4000,7 +4004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-6_4.4x3.6mm_P1.27mm"
 			(at 71.12 55.88 0)
 			(effects
 				(font
@@ -4071,7 +4075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R?"
+		(property "Value" "10K"
 			(at 95.25 63.4999 0)
 			(effects
 				(font
@@ -4080,7 +4084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.488 62.23 90)
 			(effects
 				(font
